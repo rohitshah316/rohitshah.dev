@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+
+
+
+/*gradient text*/
+.text-gradient {
+  background: linear-gradient(to right, #2563eb, #72c4e1);
+  
+   color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+/*navlink active*/
+.bottom-navbar li:has(a.active){
+  background: linear-gradient(to right, #2563eb, #72c4e1);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ;
+  
+  
+}
+
+.theme-button{
+  background: linear-gradient(to right, #2563eb, #72c4e1);
+}
+.top-navbar li a.active{
+  background: linear-gradient(to right, #2563eb, #72c4e1);
+ color: transparent;
+ -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+.dark{
+  background-color: #000000;
+}
+.light{
+  background-color: aliceblue;
+}
