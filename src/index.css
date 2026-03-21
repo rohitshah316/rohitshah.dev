@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 
-
+*{
+  transition: all 0.2s;
+}
+body{
+  transition: none;
+}
 
 /*gradient text*/
 .text-gradient {
@@ -23,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.1s ;
+ 
   
   
 }
@@ -45,3 +50,5 @@
 .light{
   background-color: aliceblue;
 }
+
+
