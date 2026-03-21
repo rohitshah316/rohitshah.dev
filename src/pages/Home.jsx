@@ -10,7 +10,7 @@ const Home = () => {
 
   const {theme}=useContext(ThemeContext)
   return (
-    <section className={`flex md:flex-row flex-col justify-around items-center w-full mt-10 ${theme==='dark'?'text-white':'text-black'}`}>
+    <section className={`flex md:flex-row flex-col justify-around items-center w-full my-15 ${theme==='dark'?'text-white':'text-black'}`}>
       <div className='flex gap-3 items-center'>
         <div>
 

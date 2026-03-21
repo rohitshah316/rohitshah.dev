@@ -1,14 +1,29 @@
 export const skills = [
   {
+    id: 1,
     title: "Frontend",
-    skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
+    skills: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+    ],
   },
   {
-    title: "Tools",
-    skills: ["Git", "GitHub", "VS Code", "Chrome DevTools"],
+    id: 2,
+    title: "Tools & Technologies",
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Chrome DevTools",
+      "REST APIs",
+    ],
   },
   {
-    title: "Concepts",
+    id: 3,
+    title: "Core Concepts",
     skills: [
       "Responsive Design",
       "API Integration",
@@ -17,7 +32,25 @@ export const skills = [
     ],
   },
   {
-    title: "Learning",
-    skills: ["Node.js", "Express.js", "MongoDB"],
+    id: 4,
+    title: "Currently Exploring",
+    skills: [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "GSAP",
+      "Full Stack"
+    ],
+  },
+  {
+    id: 5,
+    title: "Professional Skills",
+    skills: [
+      "Problem Solving",
+      "Communication",
+      "Time Management",
+      "Adaptability",
+    ],
   },
 ];

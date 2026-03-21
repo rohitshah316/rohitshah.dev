@@ -3,23 +3,53 @@ import { ThemeContext } from '../context/ThemeContext'
 import { skills } from '../data/data'
 
 const Skills = () => {
-    const {theme}=useContext(ThemeContext)
+
+    const {theme}=useContext(ThemeContext);
+    
   return (
-    <section className={`${theme==='dark'?'text-white':'text-black'} m-10 max-w-4xl mx-auto px-6 py-12`}>
-        <h2 className="text-3xl font-bold mb-6">Skills</h2>
+        <section className={`${theme==='dark'?'text-white':'text-black'} mt-10 max-w-4xl mx-auto px-6 pt-12 pb-20`}>
+            <h2 className='text-3xl font-bold mb-6'>Skills and Tech Stack</h2>
+            <div className='grid gap-6 grid-cols-1 md:grid-cols-2'>
+                {skills.map((category)=>(
+                    <div key={category.id} 
+                    className={` ${theme==='dark'?'bg-gray-800 text-white':'bg-blue-100 text-black'} rounded-xl p-5 ring ring-cyan-600 transform hover:-translate-y-2`}
+                    >
+                        <h3 className={`text-xl font-semibold mb-3`}>{category.title}</h3>
+                        <ul className={`space-y-2`}>
+                            {category.skills.map(skill=>(
+                                <li className={`bg-gray-500 px-3 py-1 inline-block m-1 rounded hover:bg-gray-600 cursor-pointer text-white`}>{skill}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </section>
+  );
+};
 
-        <ul className='grid grid-cols-1 md:grid-cols-3 m-10 p-10 gap-10'>
-            {skills.map(skill=>(
-                <div className='bg-blue-100 w-40 rounded text-black p-10 ring ring-cyan-400'>
-                    <h3>{skill.title}</h3>
-                    <ul>
-                        
-                    </ul>
-                </div>
-            ))}
-        </ul>
-    </section>
-  )
-}
+export default Skills;
 
-export default Skills
+
+    // <section className="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto px-6 pt-12 pb-20">
+    //   {skills.map((category, index) => (
+    //     <div
+    //       key={index}
+    //       className="bg-gray-800 text-white rounded-xl shadow-md p-5 hover:shadow-xl transition ring ring-cyan-600"
+    //     >
+    //       <h2 className="text-xl font-semibold mb-3">
+    //         {category.title}
+    //       </h2>
+
+    //       <ul className="space-y-2">
+    //         {category.skills.map((skill, i) => (
+    //           <li
+    //             key={i}
+    //             className="text-white bg-gray-500 px-3 py-1 rounded-md inline-block mr-2 mb-2"
+    //           >
+    //             {skill}
+    //           </li>
+    //         ))}
+    //       </ul>
+    //     </div>
+    //   ))}
+    // </section>
