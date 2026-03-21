@@ -8,17 +8,18 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Footer from './components/layout/Footer'
 import Projects from './pages/Projects'
+import ScrollToTop from './components/common/ScrollToTop'
 
 const App = () => {
 
   const {theme}=useContext(ThemeContext)
   return (
     <BrowserRouter>
- 
+
     <div className={`flex flex-col min-h-screen ${theme}`}>
-        
+      <ScrollToTop/>  
       <TopNavbar/>
-  
+
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>

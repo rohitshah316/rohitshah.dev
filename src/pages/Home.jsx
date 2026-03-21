@@ -19,8 +19,8 @@ const Home = () => {
 
       <div className='flex gap-2'>
 
-        <Button text={<>Resume <TbFileCv className='text-2xl'/></>} className='mt-2 bg-red-500 hover:bg-red-600 text-white' target="_blank" onclick=""/>
-        <Button text='Hire Me!' className='mt-2 bg-blue-500 hover:bg-blue-600 text-white' target="_blank" onclick=""/>
+        <Button text={<>Resume <TbFileCv className='text-2xl'/></>} href='/rohit-shah-resume.pdf' className='mt-2 bg-red-500 hover:bg-red-600 text-white' target="_blank"/>
+        <Button text='Contact Me' className='mt-2 bg-blue-500 hover:bg-blue-600 text-white' target="_blank" href="mailto:contact.rohitshah.dev@gmail.com?subject=Opportunity&body=Hi Rohit,"/>
       </div>
       <div className='text-4xl flex gap-2 mt-3 ml-10'>
               <a href="https://github.com/rohitshah316" target='_blank' className='hover:text-gray-400'><FaGithub/></a>
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
         </div>
 
-<FaReact className='text-8xl text-cyan-400 animate-spin' style={{animationDuration:'5s'}}/>
+<FaReact className=' text-6xl md:text-8xl text-cyan-400 animate-spin' style={{animationDuration:'5s'}}/>
       </div>
 
 

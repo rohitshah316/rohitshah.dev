@@ -25,17 +25,17 @@ const Navbar = () => {
   delay={0}
 >
   <nav className={`flex justify-between items-center p-5  top-navbar ${theme==='dark'?'text-white':'text-black'} shadow-md`}>
-        <h1 className='font-bold text-3xl text-gradient'>rohitshah.dev</h1>
+        <h1 className='font-bold text-3xl text-gradient'><NavLink to='/'>rohitshah.dev</NavLink></h1>
 
 
         {/* desktop menu */}
         <div className='flex gap-3 item-center'>
-        <ul className='md:flex gap-2 hidden'>
-            <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='/about'>About</NavLink></li>
-                <li><NavLink to='/skills'>Skills</NavLink></li>
-            <li><NavLink to='/projects'>Projects</NavLink></li>
-            <li><NavLink to='/contact'>Contact</NavLink></li>
+        <ul className='md:flex gap-2 hidden font-semibold '>
+            <li><NavLink className='hover:text-blue-400' to='/'>Home</NavLink></li>
+            <li><NavLink className='hover:text-blue-400' to='/about'>About</NavLink></li>
+                <li><NavLink className='hover:text-blue-400' to='/skills'>Skills</NavLink></li>
+            <li><NavLink className='hover:text-blue-400' to='/projects'>Projects</NavLink></li>
+            <li><NavLink className='hover:text-blue-400' to='/contact'>Contact</NavLink></li>
         
              
         </ul>
