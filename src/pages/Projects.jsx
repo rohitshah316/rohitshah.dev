@@ -2,9 +2,11 @@ import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 import { projects } from '../data/data'
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import { useTitle } from '../hooks/useTitle';
 
 const Projects = () => {
 
+    useTitle("Projects")
     const {theme}=useContext(ThemeContext)
   return (
     <section className={`${theme==='dark'?'text-white':'text-black'} mt-10 mx-auto max-w-4xl pt-12 pb-20 px-6`}>

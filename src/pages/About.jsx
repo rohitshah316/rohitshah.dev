@@ -2,8 +2,11 @@ import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 import { FaGoogleScholar } from "react-icons/fa6";
 import { IoMdPerson } from "react-icons/io";
+import { useTitle } from '../hooks/useTitle';
 
 const About = () => {
+
+  useTitle("About Me")
   const { theme } = useContext(ThemeContext)
   return (
 

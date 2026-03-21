@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 import { skills } from '../data/data'
+import { useTitle } from '../hooks/useTitle';
 
 const Skills = () => {
 
+    useTitle("Skills & Tech Stack")
     const {theme}=useContext(ThemeContext);
     
   return (

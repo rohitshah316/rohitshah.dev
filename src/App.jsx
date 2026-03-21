@@ -9,6 +9,7 @@ import Skills from './pages/Skills'
 import Footer from './components/layout/Footer'
 import Projects from './pages/Projects'
 import ScrollToTop from './components/common/ScrollToTop'
+import Contact from './pages/Contact'
 
 const App = () => {
 
@@ -26,7 +27,7 @@ const App = () => {
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/projects' element={<Projects/>}/>
         
-        <Route path='/contact' element={<Home/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         
       </Routes>
 
