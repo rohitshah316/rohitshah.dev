@@ -7,6 +7,7 @@ import { ThemeContext } from './context/ThemeContext'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Footer from './components/layout/Footer'
+import Projects from './pages/Projects'
 
 const App = () => {
 
@@ -22,7 +23,7 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/skills' element={<Skills/>}/>
-        <Route path='/projects' element={<Home/>}/>
+        <Route path='/projects' element={<Projects/>}/>
         
         <Route path='/contact' element={<Home/>}/>
         

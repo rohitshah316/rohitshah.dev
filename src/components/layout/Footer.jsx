@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className='text-white h-50 bg-gray-700 mt-10 flex flex-col md:justify-center p-5'>
+    <footer className='text-white h-50 bg-gray-700 mt-25 flex flex-col md:justify-center p-5'>
       <p>&copy; All Right Reserved By <a href="https://rohitshah.dev" className='text-blue-400'>rohitshah.dev</a></p>
       <div className='text-2xl flex gap-2 mt-2'>
         <a href="https://github.com/rohitshah316" target='_blank' className='hover:text-gray-400'><FaGithub/></a>

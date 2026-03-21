@@ -29,27 +29,3 @@ const Skills = () => {
 
 export default Skills;
 
-
-    // <section className="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto px-6 pt-12 pb-20">
-    //   {skills.map((category, index) => (
-    //     <div
-    //       key={index}
-    //       className="bg-gray-800 text-white rounded-xl shadow-md p-5 hover:shadow-xl transition ring ring-cyan-600"
-    //     >
-    //       <h2 className="text-xl font-semibold mb-3">
-    //         {category.title}
-    //       </h2>
-
-    //       <ul className="space-y-2">
-    //         {category.skills.map((skill, i) => (
-    //           <li
-    //             key={i}
-    //             className="text-white bg-gray-500 px-3 py-1 rounded-md inline-block mr-2 mb-2"
-    //           >
-    //             {skill}
-    //           </li>
-    //         ))}
-    //       </ul>
-    //     </div>
-    //   ))}
-    // </section>
