@@ -59,10 +59,34 @@ export const skills = [
 
 export const projects = [
   {
-    id: 1,
+    id: 5,
+    title: "React Job Portal App",
+    description:
+      "A modern job portal application that allows users to search, filter, save, and view job listings. Features dynamic routing, pagination, and persistent saved jobs using Context API and localStorage, providing a real-world job browsing experience.",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "Context API",
+      "LocalStorage",
+      "JavaScript",
+      "Filtering & Searching",
+      "Pagination",
+      "Responsive Design",
+    ],
+    thumbnail:
+      "https://raw.githubusercontent.com/rohitshah316/React-Job-Portal-App/main/public/job-portal-preview.png",
+    github:
+      "https://github.com/rohitshah316/React-Job-Portal-App.git",
+    demo:
+      "https://rohitshahreactjobportalapp.netlify.app/",
+  },
+
+  {
+    id: 6,
     title: "React Travel Booking App",
     description:
-      "A modern travel booking UI built with React and Tailwind CSS that allows users to search destinations, explore hotels, and view popular places. Features dynamic routing using useParams, reusable components, and conditional rendering for real-world user experience.",
+      "A responsive travel booking interface that allows users to explore destinations, view hotels, and navigate between pages using dynamic routing. Demonstrates reusable components and modern UI design.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -80,10 +104,10 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 7,
     title: "React Notes App",
     description:
-      "A feature-rich notes management application that allows users to create, edit, and delete notes with persistent storage using localStorage. Demonstrates state management, routing, and real-time updates in a clean responsive UI.",
+      "A notes management application that allows users to create, edit, and delete notes with persistent storage using localStorage. Demonstrates state management and dynamic routing in a clean UI.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -101,10 +125,10 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 8,
     title: "React Movie Search App",
     description:
-      "A movie search application that fetches real-time data from the TMDB API, allowing users to search movies and display results dynamically. Demonstrates API integration, asynchronous data fetching, and responsive UI design.",
+      "A movie search application that fetches real-time movie data from the TMDB API. Demonstrates API integration, asynchronous data fetching, and responsive UI rendering.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -122,10 +146,10 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 9,
     title: "React Weather App",
     description:
-      "A responsive weather application that fetches real-time weather data using the OpenWeather API and displays temperature, humidity, and weather conditions. Demonstrates API handling, state management, and user-friendly UI design.",
+      "A weather application that displays real-time weather information using the OpenWeather API. Demonstrates API handling, state management, and responsive design.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -143,10 +167,10 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 10,
     title: "React Todo App",
     description:
-      "A clean and interactive task management application that allows users to add, complete, and delete tasks. Demonstrates controlled inputs, list rendering, and basic state management in React.",
+      "A task management application that allows users to add, complete, and delete tasks. Demonstrates list rendering, controlled inputs, and basic state management.",
     tech: [
       "React",
       "Tailwind CSS",
@@ -163,10 +187,10 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 11,
     title: "React Counter App",
     description:
-      "A beginner-friendly counter application demonstrating React fundamentals such as state management, event handling, and component updates with increment, decrement, and reset functionality.",
+      "A simple counter application demonstrating React fundamentals such as state management and event handling with increment, decrement, and reset functionality.",
     tech: [
       "React",
       "Tailwind CSS",
