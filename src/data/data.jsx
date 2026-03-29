@@ -75,7 +75,7 @@ export const projects = [
       "Responsive Design",
     ],
     thumbnail:
-      "https://raw.githubusercontent.com/rohitshah316/React-Job-Portal-App/main/public/job-portal-preview.png",
+      "https://raw.githubusercontent.com/rohitshah316/React-Job-Portal-App/main/public/react-job-portal-app.png",
     github:
       "https://github.com/rohitshah316/React-Job-Portal-App.git",
     demo:
