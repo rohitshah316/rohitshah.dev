@@ -72,4 +72,4 @@ The goal of this website is to:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/rohitshah316/rohitshah.dev.git
