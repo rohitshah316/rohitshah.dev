@@ -59,6 +59,39 @@ export const skills = [
 
 export const projects = [
   {
+    id: 3,
+    title: "React Dashboard App",
+    description: "React Analytics Dashboard Application that provides a clean and professional interface for visualizing business metrics, revenue data, and user activity.",
+    tech:[
+        "React js",
+        "Tailwind CSS",
+        "react-chartjs-2",
+        "Context API",
+        "JavaScript",
+        
+    ],
+    thumbnail:"https://raw.githubusercontent.com/rohitshah316/React-Dashboard-App/main/public/react-dashboard-app.png",
+    github:"https://github.com/rohitshah316/Real-time-Chat-App.git",
+    demo:"https://rohitshahreactdashboardapp.netlify.app/"
+  },
+  {
+    id: 4,
+    title: "Real-time Chat App",
+    description: "A modern and responsive Real-time Chat Application built with React and Firebase that allows users to register, login, and chat with others instantly in real time.",
+    tech:[
+        "React js",
+        "Tailwind CSS",
+        "Firebase Authentication",
+        "Firebase FireStore",
+        "React Router",
+        "JavaScript",
+        
+    ],
+    thumbnail:"https://raw.githubusercontent.com/rohitshah316/Real-time-Chat-App/main/public/real-time-chat-app.png",
+    github:"https://github.com/rohitshah316/Real-time-Chat-App.git",
+    demo:"https://rohitshahrealtimechatapp.netlify.app/"
+  },
+  {
     id: 5,
     title: "React Job Portal App",
     description:
